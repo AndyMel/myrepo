@@ -10,7 +10,7 @@ public class EchoServer {
         }
          
         int portNumber = Integer.parseInt(args[0]);
-        System.out.println(""); 
+        //System.out.println(""); 
         try (
             ServerSocket serverSocket =
                 new ServerSocket(Integer.parseInt(args[0]));
